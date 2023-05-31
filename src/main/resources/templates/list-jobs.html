@@ -12,12 +12,12 @@
 
     <!-- TODO #1 - Use a loop to display job results in a table. -->
     <table th:each="job : ${jobs}" class="job-listing">
-        <tr><td>ID <span th:text="${job.id}"></span></td></tr>
-        <tr><td>Name <span th:text="${job.name}"></span></td></tr>
-        <tr><td>Employer <span th:text="${job.employer}"></span></td></tr>
-        <tr><td>Location <span th:text="${job.location}"></span></td></tr>
-        <tr><td>Position Type <span th:text="${job.positionType}"></span></td></tr>
-        <tr><td>Skill <span th:text="${job.coreCompetency}"></span></td></tr>
+        <tr><td>ID <td th:text="${job.id}"></td></td></tr>
+        <tr><td>Name <td th:text="${job.name}"></td></td></tr>
+        <tr><td>Employer <td th:text="${job.employer}"></td></td></tr>
+        <tr><td>Location <td th:text="${job.location}"></td></td></tr>
+        <tr><td>Position Type <td th:text="${job.positionType}"></td></td></tr>
+        <tr><td>Skill <td th:text="${job.coreCompetency}"></td></td></tr>
     </table>
 
 
